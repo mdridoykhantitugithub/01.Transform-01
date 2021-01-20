@@ -1,0 +1,61 @@
+
+
+#positions1{
+    margin: 50px;
+}
+h1{
+    margin: 10px;  
+}
+h3{
+    margin: 10px;
+}
+.container1{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 5px;
+}
+.box-2{
+    position: relative;
+    right: -100px;
+    border: 1px solid red;
+    z-index: 2;
+}
+.box-3{
+    z-index: 3;
+}
+
+
+#positions2{
+    margin: 50px;
+}
+h1{
+    margin: 10px;  
+}
+h3{
+    margin: 10px;
+}
+.container2{
+    display: flex;
+    position: absolute;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 5px;
+}
+.box-22{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+.box-32{
+
+}
+
+
